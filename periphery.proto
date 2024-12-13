@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package com.bot.fsap.model.grpc.common.periphery;
+
+option java_multiple_files = true;
+
+message PeripheryRequest {
+  map<string, string> headers = 1;
+  RqApHeader apheader = 2;
+  RqPayload payload = 3;
+}
+
+message PeripheryResponse {
+  map<string, string> headers = 1;
+  RsApHeader apheader = 2;
+  map<int64, RsPayload> payload = 3;
+}
+
+message RqApHeader {
+  string x_bot_client_id = 1;
+  string x_bot_server_id = 2;
+  string x_bot_client_seq = 3;
+  string x_bot_client_dt = 4;
+  string x_bot_request_id = 5;
+  string x_bot_sys_syncno = 6;
+  string x_bot_branch_syncno = 7;
+  string x_bot_rt_batch_flag = 8;
+  map<string, string> apheaders = 9;
+}
+
+message RqPayload {
+  RqHeader pyheader = 1;
+  string charsets = 2;
+  string format = 3;
+  bytes data = 4;
+}
+
+message RqHeader {
+  string pr_id = 1;
+  string tx_code = 2;
+  string dscpt = 3;
+  string rstinq = 4;
+  string hcode = 5;
+  string txcode_fmtid = 6;
+  string runtype = 7;
+  map<string, string> attributes = 8;
+}
+
+message RsApHeader {
+  string x_bot_client_id = 1;
+  string x_bot_client_seq = 2;
+  string x_bot_request_id = 3;
+  string x_bot_status = 4;
+  map<string, string> apheaders = 5;
+}
+
+message RsPayload {
+  RsHeader pyheader = 1;
+  string charsets = 2;
+  string format = 3;
+  bytes data = 4;
+}
+
+message RsHeader {
+  string tx_code = 1;
+  string dscpt = 2;
+  string msgid = 3;
+  map<string, string> attributes = 4;
+}

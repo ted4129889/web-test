@@ -1,0 +1,68 @@
+{
+    "TXCD": "G6612",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6612_FUNCD": {
+        "DESC": "功能類別",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6612_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G6612_TYPE": {
+        "DESC": "黑名單類別",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6612_RCPTID": {
+        "DESC": "銷帳編號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G6612_STIDX": {
+        "DESC": "起始位置",
+        "TYPE": "9(02)",
+        "VALUE": ""
+      },
+      "IT_G6612_LEN": {
+        "DESC": "序號長度",
+        "TYPE": "9(02)",
+        "VALUE": ""
+      },
+      "IT_G6612_STNO": {
+        "DESC": "序號起號",
+        "TYPE": "9(16)",
+        "VALUE": ""
+      },
+      "IT_G6612_ENDNO": {
+        "DESC": "序號訖號",
+        "TYPE": "9(16)",
+        "VALUE": ""
+      },
+      "IT_G6612_STDAY": {
+        "DESC": "生效起日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6612_STTIME": {
+        "DESC": "生效時間",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "IT_G6612_ENDDAY": {
+        "DESC": "結束止日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6612_ENDTIME": {
+        "DESC": "結束時間",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      }
+    }
+  }

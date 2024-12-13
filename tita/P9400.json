@@ -1,0 +1,238 @@
+{
+  "TXCD": "P9400",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT-TIP94-BDTXD": {
+      "DESC": "IT-TIP94-BDTXD",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT-TIP94-HC": {
+      "DESC": "IT-TIP94-HC",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-AMTFLG": {
+      "DESC": "IT-TIP94-AMTFLG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXDAY": {
+      "DESC": "IT-TIP94-TXDAY",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT-TIP94-ATMKIND": {
+      "DESC": "IT-TIP94-ATMKIND",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-RSEND": {
+      "DESC": "IT-TIP94-RSEND",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-CHKFLG": {
+      "DESC": "IT-TIP94-CHKFLG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-APTYP1": {
+      "DESC": "IT-TIP94-APTYP1",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXNO1": {
+      "DESC": "IT-TIP94-TXNO1",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-PACTNO": {
+      "DESC": "IT-TIP94-PACTNO",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT-TIP94-WARN": {
+      "DESC": "IT-TIP94-WARN",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "FILLER": {
+      "DESC": "FILLER",
+      "TYPE": "X(14)",
+      "VALUE": ""
+    },
+    "IT-TIP94-ATMCODE": {
+      "DESC": "IT-TIP94-ATMCODE",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT-TIP94-DSPTYPE": {
+      "DESC": "IT-TIP94-DSPTYPE",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-DSPTKD": {
+      "DESC": "IT-TIP94-DSPTKD",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT-TIP94-DSPTEXT": {
+      "DESC": "IT-TIP94-DSPTEXT",
+      "TYPE": "X(18)",
+      "VALUE": ""
+    },
+    "IT-TIP94-FLD": {
+      "DESC": "IT-TIP94-FLD",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT-TIP94-AFCLS": {
+      "DESC": "IT-TIP94-AFCLS",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-XWFLG": {
+      "DESC": "IT-TIP94-XWFLG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-XWMSG": {
+      "DESC": "IT-TIP94-XWMSG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-CHKIDFLG": {
+      "DESC": "IT-TIP94-CHKIDFLG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-PIDNO": {
+      "DESC": "IT-TIP94-PIDNO",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT-TIP94-ENTPNO": {
+      "DESC": "IT-TIP94-ENTPNO",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT-TIP94-AUTHCLASS": {
+      "DESC": "IT-TIP94-AUTHCLASS",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT-TIP94-KINBR": {
+      "DESC": "IT-TIP94-KINBR",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TRMSEQ": {
+      "DESC": "IT-TIP94-TRMSEQ",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXTNO": {
+      "DESC": "IT-TIP94-TXTNO",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TTSKID": {
+      "DESC": "IT-TIP94-TTSKID",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TRMTYP": {
+      "DESC": "IT-TIP94-TRMTYP",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TLRNO": {
+      "DESC": "IT-TIP94-TLRNO",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXCD": {
+      "DESC": "IT-TIP94-TXCD",
+      "TYPE": "X(03)",
+      "VALUE": ""
+    },
+    "IT-TIP94-PTYPE": {
+      "DESC": "IT-TIP94-PTYPE",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-DSCPT": {
+      "DESC": "IT-TIP94-DSCPT",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT-TIP94-MRKEY": {
+      "DESC": "IT-TIP94-MRKEY",
+      "TYPE": "9(14)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXTYPE": {
+      "DESC": "IT-TIP94-TXTYPE",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-CRDB": {
+      "DESC": "IT-TIP94-CRDB",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-SPCD": {
+      "DESC": "IT-TIP94-SPCD",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-NBCD": {
+      "DESC": "IT-TIP94-NBCD",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-HCODE": {
+      "DESC": "IT-TIP94-HCODE",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-YCODE": {
+      "DESC": "IT-TIP94-YCODE",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TRNMOD": {
+      "DESC": "IT-TIP94-TRNMOD",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-SBTMOD": {
+      "DESC": "IT-TIP94-SBTMOD",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT-TIP94-CURCD": {
+      "DESC": "IT-TIP94-CURCD",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT-TIP94-TXAMT": {
+      "DESC": "IT-TIP94-TXAMT",
+      "TYPE": "9(11.2)",
+      "VALUE": ""
+    },
+    "IT-TIP94-XWTEXT1": {
+      "DESC": "IT-TIP94-XWTEXT1",
+      "TYPE": "X(200)",
+      "VALUE": ""
+    },
+    "IT-TIP94-MCARDFLG": {
+      "DESC": "IT-TIP94-MCARDFLG",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "TXCD": "G0122",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0122_CLTYPE": {
+        "DESC": "代收機構類別",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "IT_G0122_FUNCD": {
+        "DESC": "功能類別",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G0122_RETRUN": {
+        "DESC": "折返記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G0122_RETCNT": {
+        "DESC": "上次已送筆數",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "IT_G0122_RTXTYPE": {
+        "DESC": "折返第1筆之代收機構類別",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "IT_G0122_RCODE": {
+        "DESC": "折返第1筆之手續費類別",
+        "TYPE": "X(03)",
+        "VALUE": ""
+      },
+      "IT_G0122_RSTAMT": {
+        "DESC": "折返第1筆之適用起始金額",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      }
+    }
+  }

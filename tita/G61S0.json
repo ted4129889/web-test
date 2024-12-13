@@ -1,0 +1,73 @@
+{
+    "TXCD": "G61S0",
+    "LABEL": {
+      "LABEL_TYPE": "FSAP_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6100_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G6100_RCPTID": {
+        "DESC": "虛擬帳號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G6100_LMTDATE": {
+        "DESC": "繳費期限",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6100_USERDATA": {
+        "DESC": "備註",
+        "TYPE": "X(40)",
+        "VALUE": ""
+      },
+      "IT_G6100_SITDATE": {
+        "DESC": "原代收日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6100_AFCLS": {
+        "DESC": "軋帳記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6100_XWFLG": {
+        "DESC": "是否連動",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6100_XWMSG": {
+        "DESC": "錯誤是否輸出結果",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6100_REDEF": {
+        "DESC": "重複定義欄位",
+        "TYPE": "X(67)",
+        "VALUE": ""
+      },
+      "IT_G6100_PREMAD": {
+        "DESC": "預作記號",
+        "TYPE": "9(1)",
+        "VALUE": ""
+      },
+      "IT_G6100_PRETXCD": {
+        "DESC": "預作交易代號",
+        "TYPE": "X(5)",
+        "VALUE": ""
+      },
+      "IT_G6100_ENTDAY": {
+        "DESC": "預定入帳日",
+        "TYPE": "9(8)",
+        "VALUE": ""
+      },
+      "IT_G6100_FILENAME": {
+        "DESC": "上傳檔名",
+        "TYPE": "X(12)",
+        "VALUE": ""
+      }
+    }
+  }

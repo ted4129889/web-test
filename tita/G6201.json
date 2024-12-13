@@ -1,0 +1,53 @@
+{
+    "TXCD": "G6201",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6201_FUNCD": {
+        "DESC": "功能類別",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6201_CLTXTYPE": {
+        "DESC": "代收機構類別",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "IT_G6201_CODE": {
+        "DESC": "手續費類別",
+        "TYPE": "X(03)",
+        "VALUE": ""
+      },
+      "IT_G6201_STAMT": {
+        "DESC": "適用起始金額",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "IT_G6201_FKD": {
+        "DESC": "手續費種類",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G6201_FEE": {
+        "DESC": "主辦行手續費",
+        "TYPE": "9(03)V99",
+        "VALUE": ""
+      },
+      "IT_G6201_FEECOST": {
+        "DESC": "代收機構手續費",
+        "TYPE": "9(03)V99",
+        "VALUE": ""
+      },
+      "IT_G6201_CFEE2": {
+        "DESC": "營業部分潤費用",
+        "TYPE": "9(03)V99",
+        "VALUE": ""
+      },
+      "IT_G6201_FEE2": {
+        "DESC": "代收機構回饋",
+        "TYPE": "9(03)V99",
+        "VALUE": ""
+      }
+    }
+  }

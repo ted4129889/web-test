@@ -1,0 +1,158 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_V69_TXDATE": {
+      "DESC": "超前起息日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_APCODE": {
+      "DESC": "應用系統代號",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_V69_INBKSEQH": {
+      "DESC": "跨行交易序號1",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V69_INBKSEQ": {
+      "DESC": "跨行交易序號2",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_V69_MODE": {
+      "DESC": "次日帳確認記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V69_CLASS": {
+      "DESC": "轉帳類別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V69_ICTXSEQ": {
+      "DESC": "交易序號",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_TXCODE": {
+      "DESC": "交易代號",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_V69_TXAMT": {
+      "DESC": "轉帳金額",
+      "TYPE": "9(12.2)",
+      "VALUE": ""
+    },
+    "IT_V69_ATMID": {
+      "DESC": "端末設備代號",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_ATMSEQ": {
+      "DESC": "端末設備查核碼",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_TIME": {
+      "DESC": "交易日期時間",
+      "TYPE": "9(14)",
+      "VALUE": ""
+    },
+    "IT_V69_EEACTNO": {
+      "DESC": "轉入帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_ERACTNO": {
+      "DESC": "轉出帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_ERBKNO": {
+      "DESC": "發卡單位代號",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_EEBKNO": {
+      "DESC": "轉入銀行別",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_REMARK": {
+      "DESC": "晶片卡備註欄",
+      "TYPE": "X(60)",
+      "VALUE": ""
+    },
+    "IT_V69_AUTH": {
+      "DESC": "交易驗證碼",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_V69_MARK": {
+      "DESC": "附言欄",
+      "TYPE": "X(40)",
+      "VALUE": ""
+    },
+    "IT_V69_G61TYPE": {
+      "DESC": "代收類別G61TYPE",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_V69_MRCHNO": {
+      "DESC": "繳費類別",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT_V69_FEECODE": {
+      "DESC": "全國性繳費附言欄1",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID1": {
+      "DESC": "全國性繳費附言欄2",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID2": {
+      "DESC": "全國性繳費附言欄3",
+      "TYPE": "X(14)",
+      "VALUE": ""
+    },
+    "IT_V69_LMTDATE": {
+      "DESC": "全國性繳費附言欄4",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_FILLER": {
+      "DESC": "全國性繳費附言欄5",
+      "TYPE": "X(12)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID_G": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_V69_LMTDATE_G": {
+      "DESC": "繳款期限",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_EEACTNOFLG": {
+      "DESC": "轉入帳號性質別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V69_MTTEXT": {
+      "DESC": "連動還款",
+      "TYPE": "X(300)",
+      "VALUE": ""
+    }
+  }
+}

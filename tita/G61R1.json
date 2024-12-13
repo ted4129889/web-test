@@ -1,0 +1,108 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_R16_REMBK": {
+      "DESC": "匯款行",
+      "TYPE": "9(07)",
+      "VALUE": ""
+    },
+    "IT_R16_REMTYP": {
+      "DESC": "匯款種類",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_R16_REMSNO": {
+      "DESC": "匯款編號",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_R16_DECPCD": {
+      "DESC": "解碼記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_R16_OSNMODE": {
+      "DESC": "下傳狀態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_R16_COSN": {
+      "DESC": "中心序號",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_R16_LOSN": {
+      "DESC": "端末序號",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_R16_POSQNO": {
+      "DESC": "收款序號",
+      "TYPE": "9(05)",
+      "VALUE": ""
+    },
+    "IT_R16_DWLCD": {
+      "DESC": "下傳記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_R16_REMDAY": {
+      "DESC": "匯款日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_R16_AMLONOFF": {
+      "DESC": "AML-name-check開關",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_R16_REFID": {
+      "DESC": "name-check-reference-ID",
+      "TYPE": "X(32)",
+      "VALUE": ""
+    },
+    "IT_R16_REMRESULT": {
+      "DESC": "匯款人檢核結果",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_R16_RECRESULT": {
+      "DESC": "收款人檢核結果",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_R16_RECACT": {
+      "DESC": "收款人帳號",
+      "TYPE": "9(14)",
+      "VALUE": ""
+    },
+    "IT_R16_REMNAM": {
+      "DESC": "收款人姓名",
+      "TYPE": "X(68)",
+      "VALUE": ""
+    },
+    "IT_R16_REMNM": {
+      "DESC": "匯款人姓名1",
+      "TYPE": "X(68)",
+      "VALUE": ""
+    },
+    "IT_R16_REMARK": {
+      "DESC": "備註1",
+      "TYPE": "X(52)",
+      "VALUE": ""
+    },
+    "IT_R16_MSGCD": {
+      "DESC": "G61回應MSGCD",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT_R16_REASON": {
+      "DESC": "G61回應錯誤訊息",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    }
+  }
+}

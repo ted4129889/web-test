@@ -1,0 +1,23 @@
+{
+    "TXCD": "G0063",
+    "LABEL": {
+        "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+        "IT_G0063_CODE": {
+            "DESC": "收付類別",
+            "TYPE": "X(06)",
+            "VALUE": ""
+        },
+        "IT_G0063_PBRNO": {
+            "DESC": "分行別",
+            "TYPE": "9(03)",
+            "VALUE": ""
+        },
+        "IT_G0063_KIND": {
+            "DESC": "查詢種類",
+            "TYPE": "9(01)",
+            "VALUE": ""
+        }
+    }
+}

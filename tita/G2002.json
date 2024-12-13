@@ -1,0 +1,13 @@
+{
+  "TXCD": "G2002",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_G2002_RTYPE": {
+      "DESC": "G2002登入方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    }
+  }
+}

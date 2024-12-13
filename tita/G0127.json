@@ -1,0 +1,28 @@
+{
+    "TXCD": "",
+    "LABEL": {
+      "LABEL_TYPE": "FSAP_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0127_TXDATE": {
+        "DESC": "查詢日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0127_RKINBR": {
+        "DESC": "交易序號-操作行",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G0127_RTRMSEQ": {
+        "DESC": "交易序號-櫃台機編號",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "IT_G0127_RTXTNO": {
+        "DESC": "交易序號-交易傳輸編號",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      }
+    }
+  }

@@ -1,0 +1,68 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_R24_REMDAY": {
+      "DESC": "匯款日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_R24_REMBK": {
+      "DESC": "匯款行",
+      "TYPE": "9(07)",
+      "VALUE": ""
+    },
+    "IT_R24_REMSNO": {
+      "DESC": "匯款編號",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_R24_REMTYP": {
+      "DESC": "匯款種類",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_R24_RJCD": {
+      "DESC": "拒絕代碼",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_R24_RECACT": {
+      "DESC": "收款人帳號",
+      "TYPE": "9(14)",
+      "VALUE": ""
+    },
+    "IT_R24_REMNAM": {
+      "DESC": "收款人姓名",
+      "TYPE": "X(68)",
+      "VALUE": ""
+    },
+    "IT_R24_REMNM": {
+      "DESC": "匯款人姓名",
+      "TYPE": "9(68)",
+      "VALUE": ""
+    },
+    "IT_R24_REMARK": {
+      "DESC": "備註",
+      "TYPE": "X(52)",
+      "VALUE": ""
+    },
+    "IT_R24_RTNCD": {
+      "DESC": "G61回應代號",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_R24_MSGCD": {
+      "DESC": "G61訊息代號",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT_R24_REASON": {
+      "DESC": "G61錯誤訊息",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "TXCD": "G0064",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0064_ENTDY": {
+        "DESC": "代收付日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0064_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G0064_RCPTID": {
+        "DESC": "銷帳編號/虛擬帳號",
+        "TYPE": "X(26)",
+        "VALUE": ""
+      },
+      "IT_G0064_KIND": {
+        "DESC": "查詢模式",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G0064_TIME": {
+        "DESC": "代收時間(折返key值)",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "IT_G0064_AMT": {
+        "DESC": "繳費金額(折返key值)",
+        "TYPE": "9(10)",
+        "VALUE": ""
+      },
+      "IT_G0064_RTKINBR": {
+        "DESC": "代收行(折返key值)",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G0064_RTTRMNO": {
+        "DESC": "櫃檯機編號(折返key值)",
+        "TYPE": "9(07)",
+        "VALUE": ""
+      },
+      "IT_G0064_RTTLRNO": {
+        "DESC": "櫃員號碼(折返key值)",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "IT_G0064_ENTPNO": {
+        "DESC": "統一編號或總公司統一編號",
+        "TYPE": "X(10)",
+        "VALUE": ""
+      },
+      "IT_G0064_SERNO1": {
+        "DESC": "交易明細流水序號－起號",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "IT_G0064_SERNO2": {
+        "DESC": "交易明細流水序號－迄號",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "IT_G0064_TOTCNT": {
+        "DESC": "累計寫檔筆數(折返key值)",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      }
+    }
+  }

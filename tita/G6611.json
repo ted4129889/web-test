@@ -1,0 +1,48 @@
+{
+    "TXCD": "G6611",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6611_KIND": {
+        "DESC": "查詢種類",
+        "TYPE": "X(01)",
+        "VALUE": ""
+      },
+      "IT_G6611_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G6611_RCPTID": {
+        "DESC": "虛擬帳號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G6611_LDATE": {
+        "DESC": "逾期日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6611_LTIME": {
+        "DESC": "逾期時間",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "IT_G6611_KDATE": {
+        "DESC": "保存日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6611_PNAME": {
+        "DESC": "繳款人名",
+        "TYPE": "X(30)",
+        "VALUE": ""
+      },
+      "IT_G6611_LFLG": {
+        "DESC": "逾期記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      }
+    }
+  }

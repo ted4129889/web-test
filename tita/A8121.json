@@ -1,0 +1,1128 @@
+{
+  "TXCD": "A8121",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_A8121_ACCOM": {
+      "DESC": "會計保留區",
+      "TYPE": "X(50)",
+      "VALUE": ""
+    },
+    "IT_A8121_AHCODE": {
+      "DESC": "更正記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DATE": {
+      "DESC": "日期",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_A8121_RTXCODE": {
+      "DESC": "原交易代號",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT_A8121_RMRKEY": {
+      "DESC": "帳號／參考編號",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_A8121_RCOKEY": {
+      "DESC": "對方的帳號／參考編號",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_A8121_BATCHNO": {
+      "DESC": "批號",
+      "TYPE": "X(12)",
+      "VALUE": ""
+    },
+    "IT_A8121_RSECNO": {
+      "DESC": "業務別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CBRNO": {
+      "DESC": "操作行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CTLRNO": {
+      "DESC": "操作櫃員",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_COPFG": {
+      "DESC": "代作記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CVIRTUAL": {
+      "DESC": "虛擬櫃員記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CSECNO": {
+      "DESC": "自行：業務別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CCLDEPT": {
+      "DESC": "自行：結帳部門",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CCLTLRNO": {
+      "DESC": "自行：結帳櫃員",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CMSECNO": {
+      "DESC": "被代作：業務別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CMCLDEPT": {
+      "DESC": "被代作：結帳部門",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_COTXCODE": {
+      "DESC": "原交易代號",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "IT_A8121_SSECNO": {
+      "DESC": "業務別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_SCLDEPT": {
+      "DESC": "結帳部門",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_CSBCASH": {
+      "DESC": "出納代收付記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_MSGEND": {
+      "DESC": "電文結束記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_PRID": {
+      "DESC": "流程代號",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_A8121_FIL": {
+      "DESC": "保留",
+      "TYPE": "X(44)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_01": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_01": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_01": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_01": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_01": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_01": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_01": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_01": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_01": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_01": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_01": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_01": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_01": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_01": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_01": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_01": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_01": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_01": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_01": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_01": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_02": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_02": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_02": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_02": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_02": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_02": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_02": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_02": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_02": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_02": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_02": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_02": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_02": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_02": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_02": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_02": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_02": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_02": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_02": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_02": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_03": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_03": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_03": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_03": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_03": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_03": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_03": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_03": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_03": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_03": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_03": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_03": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_03": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_03": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_03": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_03": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_03": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_03": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_03": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_03": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_04": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_04": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_04": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_04": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_04": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_04": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_04": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_04": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_04": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_04": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_04": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_04": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_04": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_04": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_04": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_04": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_04": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_04": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_04": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_04": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_05": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_05": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_05": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_05": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_05": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_05": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_05": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_05": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_05": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_05": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_05": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_05": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_05": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_05": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_05": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_05": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_05": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_05": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_05": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_05": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_06": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_06": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_06": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_06": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_06": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_06": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_06": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_06": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_06": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_06": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_06": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_06": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_06": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_06": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_06": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_06": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_06": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_06": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_06": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_06": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_07": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_07": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_07": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_07": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_07": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_07": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_07": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_07": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_07": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_07": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_07": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_07": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_07": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_07": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_07": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_07": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_07": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_07": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_07": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_07": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_08": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_08": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_08": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_08": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_08": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_08": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_08": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_08": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_08": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_08": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_08": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_08": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_08": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_08": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_08": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_08": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_08": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_08": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_08": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_08": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_09": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_09": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_09": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_09": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_09": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_09": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_09": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_09": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_09": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_09": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_09": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_09": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_09": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_09": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_09": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_09": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_09": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_09": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_09": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_09": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACBRNO_OC_10": {
+      "DESC": "掛帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_CURCD_OC_10": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACTYPE_OC_10": {
+      "DESC": "帳務現轉別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_DEPT_OC_10": {
+      "DESC": "部別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_ACNO_OC_10": {
+      "DESC": "科目",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_SBNO_OC_10": {
+      "DESC": "子目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_DTLNO_OC_10": {
+      "DESC": "細目",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSTYPE_OC_10": {
+      "DESC": "銷帳方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_KIND_OC_10": {
+      "DESC": "科目類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCCRDB_OC_10": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CNT_OC_10": {
+      "DESC": "筆數",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_A8121_OCTXAMT_OC_10": {
+      "DESC": "金額",
+      "TYPE": "9(15.2)",
+      "VALUE": ""
+    },
+    "IT_A8121_RVSNO_OC_10": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_A8121_MBRNO_OC_10": {
+      "DESC": "對方帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_OPTYPE_OC_10": {
+      "DESC": "帳務行作業型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_CLBRNO_OC_10": {
+      "DESC": "結帳行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_VBRNO_OC_10": {
+      "DESC": "虛擬分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_A8121_MAUCD_OC_10": {
+      "DESC": "清算行記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_A8121_SUMNO_OC_10": {
+      "DESC": "彙總別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_A8121_FILLER_OC_10": {
+      "DESC": "保留",
+      "TYPE": "X(24)",
+      "VALUE": ""
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "TXCD": "G0126",
+    "LABEL": {
+      "LABEL_TYPE": "FSAP_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0126_TXDATE": {
+        "DESC": "查詢日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0126_QKINBR": {
+        "DESC": "分行別",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G0126_PR_ID": {
+        "DESC": "流程代號",
+        "TYPE": "X(20)",
+        "VALUE": ""
+      },
+      "IT_G0126_RVSNO": {
+        "DESC": "銷帳編號",
+        "TYPE": "X(20)",
+        "VALUE": ""
+      },
+      "IT_G0126_INQTY": {
+        "DESC": "查詢種類",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G0126_RKINBR": {
+        "DESC": "交易序號-操作行",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G0126_RTRMSEQ": {
+        "DESC": "交易序號-櫃台機編號",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "IT_G0126_RTXTNO": {
+        "DESC": "交易序號-交易傳輸編號",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      }
+    }
+  }

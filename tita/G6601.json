@@ -1,0 +1,33 @@
+{
+    "TXCD": "G6601",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6601_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G6601_RCPTID": {
+        "DESC": "虛擬帳號/銷帳號碼",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G6601_LMTDATE": {
+        "DESC": "繳費期限",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G6601_USERDATA": {
+        "DESC": "備註資料",
+        "TYPE": "X(40)",
+        "VALUE": ""
+      },
+      "IT_G6601_SITDATE": {
+        "DESC": "原代收日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      }
+    }
+  }

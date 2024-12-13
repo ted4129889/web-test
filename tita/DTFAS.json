@@ -1,0 +1,53 @@
+{
+    "TXCD": "DTFAS",
+    "LABEL": {
+      "LABEL_TYPE": "FSAP_TITA_LABEL"
+    },
+    "TEXT": {
+      "TXDATE": {
+        "DESC": "入帳日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "RKINBR": {
+        "DESC": "操作行",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "RTRMSEQ": {
+        "DESC": "櫃台機編號",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "RTXTNO": {
+        "DESC": "交易傳輸編號",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "CLSTYPE": {
+        "DESC": "銷帳方式",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "BATNO": {
+        "DESC": "批次入帳編號",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      },
+      "VTLRNO": {
+        "DESC": "指定結帳櫃員",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "ACBRNO": {
+        "DESC": "指定帳務行",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "BALCHK": {
+        "DESC": "帳務平衡檢查",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      }
+    }
+  }

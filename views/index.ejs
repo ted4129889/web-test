@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gRPC API Test</title>
+  <link rel="stylesheet" href="/static/styles.css?v=<%= version %>">
+</head>
+
+<body>
+  <div id="load" class="loader"></div>
+  <div class="header">
+    <h1>gRPC API Test</h1>
+  </div>
+  <div class="main-content">
+    <div class="container-wrapper">
+      <div id="tita-container" class="container">
+        <h3>TITA</h3>
+        <input id="titaString" type="text">
+        <br>
+        <br>
+        <!-- <textarea id="titaJson" rows="20" cols="60"></textarea> -->
+        <div id="titaJsonContainer" class="tita-json-container">
+        </div>
+      </div>
+      <div id="parse-container" class="container">
+        <button class="btnLeft" id="requestToTitaBtn" onclick="requestToTita()">
+          <span>← ← ←</span>
+          <br>
+          <span>轉成</span>
+          <br>
+          <span>TITA</span>
+        </button>
+        <br>
+        <button class="btnRight" id="titaToRequestBtn" onclick="titaToRequest()">
+          <span>→ → →</span>
+          <br>
+          <span>轉成</span>
+          <br>
+          <span>Request</span>
+        </button>
+      </div>
+      <div id="request-container" class="container">
+        <h3>Request:</h3>
+        <label for="dir-select">Choose Directory:</label>
+        <select id="dir-select"></select>
+        <label for="file-select">Choose Request file:</label>
+        <select id="file-select"></select>
+        <button id="saveFileBtn" onclick="saveFile()">
+          <span>儲存檔案</span>
+        </button>
+        <button id="saveAsNewFileBtn" onclick="saveAsNewFile()">
+          <span>另存新檔</span>
+        </button>
+        <button id="sendRequestBtn" onclick="sendRequest()">
+          <span>發送請求</span>
+        </button>
+        <textarea id="request" rows="20" cols="60"></textarea>
+      </div>
+      <div id="response-container" class="container">
+        <h3>Response:</h3>
+        <textarea id="response" readonly></textarea>
+      </div>
+    </div>
+  </div>
+  <script src="/static/script.js?v=<%= version %>"></script>
+</body>
+
+</html>

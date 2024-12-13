@@ -1,0 +1,18 @@
+{
+    "TXCD": "G6613",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G6613_BRNO": {
+        "DESC": "分行別",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G6613_RDAY": {
+        "DESC": "日期",
+        "TYPE": "9(07)",
+        "VALUE": ""
+      }
+    }
+  }

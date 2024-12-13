@@ -1,0 +1,63 @@
+{
+    "TXCD": "G0062",
+    "LABEL": {
+        "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+        "IT_G0062_DATE": {
+            "DESC": "日期",
+            "TYPE": "9(08)",
+            "VALUE": ""
+        },
+        "IT_G0062_CODE": {
+            "DESC": "收付類別",
+            "TYPE": "X(06)",
+            "VALUE": ""
+        },
+        "IT_G0062_FLG94": {
+            "DESC": "折返記號",
+            "TYPE": "9(01)",
+            "VALUE": ""
+        },
+        "IT_G0062_PBRNO": {
+            "DESC": "行別",
+            "TYPE": "9(03)",
+            "VALUE": ""
+        },
+        "IT_G0062_KIND": {
+            "DESC": "查詢模式",
+            "TYPE": "9(01)",
+            "VALUE": ""
+        },
+        "IT_G0062_T_TXTYPE": {
+            "DESC": "性質類別",
+            "TYPE": "X(01)",
+            "VALUE": ""
+        },
+        "IT_G0062_SUBCNT": {
+            "DESC": "筆數",
+            "TYPE": "9(06)",
+            "VALUE": ""
+        },
+        "IT_G0062_SUBAMT": {
+            "DESC": "金額",
+            "TYPE": "9(12)",
+            "VALUE": ""
+        },
+        "IT_G0062_SUBCFEE": {
+            "DESC": "應收手續費",
+            "TYPE": "9(07.2)",
+            "VALUE": ""
+        },
+        "IT_G0062_SUBFLG": {
+            "DESC": "資料結束記號",
+            "TYPE": "9(01)",
+            "VALUE": ""
+        },
+        "IT_G0062_SUBCODE": {
+            "DESC": "收付類別",
+            "TYPE": "X(06)",
+            "VALUE": ""
+        }
+    }
+}

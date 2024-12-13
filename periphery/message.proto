@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+package com.bot.fsap.model.grpc.common.periphery;
+import "common.proto";
+
+option java_multiple_files = true;
+
+message PeripheryRequest {
+  map<string, string> headers = 1;        // 預留的跨系統技術層的訊息交換
+  RqApHeader apheader = 2;                // 系統層的訊息交換
+  RqPayload payload = 3;                  // 服務層的訊息交換
+}
+
+message PeripheryResponse  {
+  map<string, string> headers = 1;        // 預留的跨系統技術層的訊息交換
+  RsApHeader apheader = 2;                // 系統層的訊息交換
+  map<int64, RsPayload > payload = 3;     // 服務層的訊息交換； map key 指的是TOTA 的第幾筆。
+}
+
+//Request
+
+message RqApHeader {
+  string x_bot_client_id = 1;             // 交易發送系統代號
+  string x_bot_server_id = 2;             // 服務目的端系統代號：FSAP；NCB;
+  string x_bot_client_seq = 3;            // 交易發送系統編的交易序號（15碼）
+  string x_bot_client_dt = 4;             // 交易發送時間
+  string x_bot_request_id = 5;            // 連結串連序號 UUID
+  string x_bot_sys_syncno = 6;             // 系統同步序號；由週邊系統發起時不放值
+  string x_bot_branch_syncno = 7;          // 分行同步序號；由週邊系統發起時不放值
+  string x_bot_rt_batch_flag = 8;         // 批次或連線交易別: 批次：B 連線：O 同步資訊服務呼叫：S 廣播訊息：BC
+  map<string, string> apheaders = 9;      // 預留的系統層的訊息交換
+}
+
+message RqPayload {
+  RqHeader pyheader = 1;                  // 服務層的交易Key值資訊
+  Charsets charsets = 2;                  // 服務層的實際資料內容編碼方式
+  Format format = 3;                      // 服務層的實際資料內容格式
+  bytes data = 4;                         // 服務層的實際資料內容
+}
+
+message RqHeader {
+  string pr_id = 1 ;                      // 流程代號； 由週邊系統發起時不放值
+  string tx_code = 2;                     // 交易代號
+  string dscpt = 3;                         // 摘要
+  string rstinq = 4;                      // TIMEOUT 記號； 查詢記號
+  string hcode = 5;                       // 更正記號
+  string txcode_fmtid = 6;                // 電文格式代號；由週邊系統發起時不放值
+  string runtype  = 7;                    // 0: 一般模式 1:rerun 模式
+  map<string, string> attributes = 8;     // 擴充預備欄位
+}
+
+//Response
+message RsApHeader {
+  string x_bot_client_id = 1;           // 交易發送系統代號
+  string x_bot_client_seq = 2;          // 交易發送系統編的交易序號
+  string x_bot_request_id = 3;          // 連結串連序號 UUID
+  string x_bot_status = 4;               // 處理結果
+  map<string, string> apheaders = 5;    // 預留的系統層的訊息交換
+}
+
+message RsPayload {
+  RsHeader pyheader = 1;                // 服務層的交易Key值資訊
+  Charsets charsets = 2;                // 服務層的實際資料內容編碼方式
+  Format format = 3;                    // 服務層的實際資料內容格式
+  bytes data = 4;                       // 服務層的實際資料內容
+}
+
+message RsHeader {
+  string tx_code = 1;                   // 交易代號
+  string dscpt = 2;                       // 摘要
+  string msgid = 3;                      // TOTA. 格式ID
+  map<string, string> attributes = 4;   // 擴充欄位
+}
+
+
+

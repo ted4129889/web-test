@@ -1,0 +1,205 @@
+{
+  "TXCD": "FAS_TITA_LABEL",
+  "LABEL": {
+    "KINBR": {
+      "DESC": "輸入行別",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "TRMSEQ": {
+      "DESC": "櫃檯機序號",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "TXTNO": {
+      "DESC": "交易傳輸編號",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "ORGKIN": {
+      "DESC": "原輸入行別",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "ORGTRM": {
+      "DESC": "原櫃檯機序號",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "ORGTNO": {
+      "DESC": "原交易傳輸編號",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "TTSKID": {
+      "DESC": "端末TASKID",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "TRMTYP": {
+      "DESC": "櫃檯機種類",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "TLRNO": {
+      "DESC": "櫃員編號",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "TXCODE": {
+      "DESC": "交易別代號",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "RSTINQ": {
+      "DESC": "TIMEOUT記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "PTYPE": {
+      "DESC": "處理型態",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "DSCPT": {
+      "DESC": "交易摘要",
+      "TYPE": "X(05)",
+      "VALUE": ""
+    },
+    "MRKEY": {
+      "DESC": "帳號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "TXTYPE": {
+      "DESC": "帳務別",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "CRDB": {
+      "DESC": "借貸別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "SPCD": {
+      "DESC": "主管許可記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "NBCD": {
+      "DESC": "無摺記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "HCODE": {
+      "DESC": "更正記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "TRNMOD": {
+      "DESC": "訓練記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "SBTMOD": {
+      "DESC": "代登記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "CURCD": {
+      "DESC": "幣別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "TXAMT": {
+      "DESC": "金額",
+      "TYPE": "9(11.2)",
+      "VALUE": ""
+    },
+    "FEPDD": {
+      "DESC": "前置帳務日",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "PREDO": {
+      "DESC": "預作實作記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "CALDY": {
+      "DESC": "實際交易日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "CALTM": {
+      "DESC": "實際交易時間",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "TOTAFG": {
+      "DESC": "TOTA記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "WARNFG": {
+      "DESC": "警告訊息不送記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "SUPNO": {
+      "DESC": "主管櫃員代號",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "MTTPSEQ": {
+      "DESC": "連動次數",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "PSEUDO": {
+      "DESC": "虛擬工作站記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "COKEY": {
+      "DESC": "對方帳號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "COBKNO": {
+      "DESC": "對方帳號所屬銀行別",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "VER": {
+      "DESC": "版本別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "ACBRNO": {
+      "DESC": "帳務行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "SECNO": {
+      "DESC": "業務別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IBFFG": {
+      "DESC": "即時扣帳序",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "JOBNO": {
+      "DESC": "會計用批號",
+      "TYPE": "X(03)",
+      "VALUE": ""
+    },
+    "SBCASH": {
+      "DESC": "出納代收付記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    }    
+  }
+}

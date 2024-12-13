@@ -1,0 +1,133 @@
+{
+    "TXCD": "K9500",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_TIK95_PTCD": {
+        "DESC": "IT_TIK95_PTCD",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_CKNO": {
+        "DESC": "支票號碼",
+        "TYPE": "9(07)",
+        "VALUE": ""
+      },
+      "IT_TIK95_BDTXD": {
+        "DESC": "超前起息",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_TIK95_SOURCE": {
+        "DESC": "IT_TIK95_SOURCE",
+        "TYPE": "X(03)",
+        "VALUE": ""
+      },
+      "IT_TIK95_REFNO": {
+        "DESC": "IT_TIK95_REFNO",
+        "TYPE": "9(07)",
+        "VALUE": ""
+      },
+      "IT_TIK95_AFCLS": {
+        "DESC": "軋帳記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_DSPTYPE": {
+        "DESC": "備註型式",
+        "TYPE": "X(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_DSPTKD": {
+        "DESC": "備註種類",
+        "TYPE": "X(03)",
+        "VALUE": ""
+      },
+      "IT_TIK95_DSPTEXT": {
+        "DESC": "備註內容",
+        "TYPE": "X(26)",
+        "VALUE": ""
+      },
+      "IT_TIK95_MFLAG": {
+        "DESC": "1:連動貸方",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_MACTNO": {
+        "DESC": "貸方帳號",
+        "TYPE": "9(12)",
+        "VALUE": ""
+      },
+      "IT_TIK95_FIL1": {
+        "DESC": "IT_TIK95_FIL1",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_TIK95_CLASS": {
+        "DESC": "IT_TIK95_CLASS",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_TXCODE": {
+        "DESC": "IT_TIK95_TXCODE",
+        "TYPE": "X(05)",
+        "VALUE": ""
+      },
+      "IT_TIK95_DSCPT": {
+        "DESC": "IT_TIK95_DSCPT",
+        "TYPE": "X(05)",
+        "VALUE": ""
+      },
+      "IT_TIK95_TXTYPE": {
+        "DESC": "IT_TIK95_TXTYPE",
+        "TYPE": "X(02)",
+        "VALUE": ""
+      },
+      "IT_TIK95_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_TIK95_RCPTID": {
+        "DESC": "虛擬帳號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_TIK95_LMTDATE": {
+        "DESC": "繳費期限",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_TIK95_USERDATA": {
+        "DESC": "備註",
+        "TYPE": "X(40)",
+        "VALUE": ""
+      },
+      "IT_TIK95_SITDATE": {
+        "DESC": "原代收日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_TIK95_XWFLG": {
+        "DESC": "是否連動",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_XWMSG": {
+        "DESC": "錯誤是否輸出結果",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_TIK95_REDEF": {
+        "DESC": "重複定義欄位",
+        "TYPE": "X(67)",
+        "VALUE": ""
+      },
+      "FILLER": {
+        "DESC": "FILLER",
+        "TYPE": "X(52)",
+        "VALUE": ""
+      }
+    }
+  }

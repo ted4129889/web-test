@@ -1,0 +1,48 @@
+{
+    "TXCD": "G0121",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0121_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G0121_RCPTID": {
+        "DESC": "銷帳編號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G0121_FUNCD": {
+        "DESC": "功能選項",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "IT_G0121_STIDX": {
+        "DESC": "起始位置",
+        "TYPE": "9(02)",
+        "VALUE": ""
+      },
+      "IT_G0121_LEN": {
+        "DESC": "序號長度",
+        "TYPE": "9(02)",
+        "VALUE": ""
+      },
+      "IT_G0121_STNO": {
+        "DESC": "序號起號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G0121_STDAY": {
+        "DESC": "生效起日",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0121_STTIME": {
+        "DESC": "生效時間",
+        "TYPE": "9(04)",
+        "VALUE": ""
+      }
+    }
+  }

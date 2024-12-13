@@ -1,0 +1,63 @@
+{
+    "TXCD": "G0131",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "DATE": {
+        "DESC": "日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "94FLG": {
+        "DESC": "折返記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "PBRNO": {
+        "DESC": "行別",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "KIND": {
+        "DESC": "查詢模式",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "TXTYPE": {
+        "DESC": "性質類別",
+        "TYPE": "X(01)",
+        "VALUE": ""
+      },
+      "SUBCNT": {
+        "DESC": "筆數",
+        "TYPE": "9(06)",
+        "VALUE": ""
+      },
+      "SUBAMT": {
+        "DESC": "金額",
+        "TYPE": "9(12)",
+        "VALUE": ""
+      },
+      "SUBCFEE": {
+        "DESC": "應收手續費",
+        "TYPE": "9(07.2)",
+        "VALUE": ""
+      },
+      "SUBFLG": {
+        "DESC": "資料結束記號",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      },
+      "SUBCODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      }
+    }
+  }

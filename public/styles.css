@@ -1,0 +1,317 @@
+/* 卷軸 */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+/* 卷軸軌道 */
+::-webkit-scrollbar-track {
+    background: #B5CAA0;
+    border-radius: 10px;
+}
+
+/* 滑塊 */
+::-webkit-scrollbar-thumb {
+    background: #B5CAA0;
+    border-radius: 10px;
+}
+
+/* 滑塊懸停時 */
+::-webkit-scrollbar-thumb:hover {
+    background: #B5CAA0;
+}
+
+/* 卷軸的左右箭頭按鈕 */
+::-webkit-scrollbar-button {
+    background: #B5CAA0;
+    border-radius: 10px;
+    display: none;
+}
+
+/* for Firefox & IE 10+ */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #B5CAA0 #f1f1f1;
+    -ms-overflow-style: none;
+}
+
+body {
+    display: flex;
+    background: #B5CAA0;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Microsoft YaHei', monospace;
+    font-size: 0.8em;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1;
+}
+
+.header {
+    width: 100%;
+    color: #222222;
+    text-align: center;
+    height: 50px;
+    line-height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 2em
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+.container-wrapper {
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    overflow-y: auto;
+}
+
+.container {
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.tita-json-container {
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#tita-container {
+    width: 30%;
+}
+
+#parse-container {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#request-container {
+    width: 30%;
+}
+
+#response-container {
+    width: 30%;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    background-color: #B5CAA0;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    font-size: 0.8em
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #B5CAA0;
+    border-radius: 4px;
+    font-size: 0.8em
+}
+
+#dir-select,
+#file-select {
+    min-width: 300px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #B5CAA0;
+    border-radius: 4px;
+    font-size: 1em
+}
+
+#requestToTitaBtn,
+#titaToRequestBtn {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#saveFileBtn,
+#saveAsNewFileBtn,
+#sendRequestBtn {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#titaJson,
+#request,
+#response {
+    resize: none;
+    width: 100%;
+    font-size: 10px
+}
+
+#titaJson {
+    height: 86%;
+}
+
+#request {
+    height: 72%;
+}
+
+#response {
+    height: 92%;
+}
+
+.btnLeft,
+.btnRight,
+#saveFileBtn,
+#saveAsNewFileBtn,
+#sendRequestBtn {
+    min-width: 95px;
+    width: 15%;
+    position: relative;
+    background-color: #B5CAA0;
+    border: 2px solid #222222;
+    color: #222222;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+    border-radius: 12px;
+}
+
+.btnLeft,
+.btnRight {
+    width: 100%;
+}
+
+.btnLeft span,
+.btnRight span,
+#saveFileBtn span,
+#saveAsNewFileBtn span,
+#sendRequestBtn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btnLeft:before,
+.btnLeft:after,
+.btnRight:before,
+.btnRight:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.btnLeft:hover:before,
+.btnRight:hover:before {
+    transform: translate3d(0, 0, 0);
+}
+
+.btnLeft:hover:after,
+.btnRight:hover:after {
+    transform: translate3d(0, 0, 0);
+}
+
+.btnLeft:hover,
+.btnRight:hover,
+#saveFileBtn:hover,
+#saveAsNewFileBtn:hover,
+#sendRequestBtn:hover {
+    transform: translateY(-2px);
+}
+
+.btnLeft:active:before,
+.btnRight:active:before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.btnLeft:active,
+.btnRight:active,
+#saveFileBtn:active,
+#saveAsNewFileBtn:active,
+#sendRequestBtn:active {
+    transform: translateY(2px);
+}
+
+#sendRequestBtn:disabled {
+    background-color: #cccccc;
+    border: 1px solid #999999;
+    color: #227D51;
+    cursor: not-allowed;
+}
+
+/* 新增樣式 */
+.tita-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tita-form div {
+    margin-bottom: 5px;
+}
+
+.tita-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.input-wrapper input {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.input-wrapper .error-message {
+    color: red;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader,
+#load {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 0 5px 8px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader:before {
+    content: "Loading..."
+}

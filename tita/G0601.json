@@ -1,0 +1,38 @@
+{
+    "TXCD": "G0601",
+    "LABEL": {
+      "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0601_RCPTID": {
+        "DESC": "虛擬帳號",
+        "TYPE": "X(16)",
+        "VALUE": ""
+      },
+      "IT_G0601_CODE": {
+        "DESC": "收付類別",
+        "TYPE": "X(06)",
+        "VALUE": ""
+      },
+      "IT_G0601_USERDATA": {
+        "DESC": "備註",
+        "TYPE": "X(40)",
+        "VALUE": ""
+      },
+      "IT_G0601_LMTDATE": {
+        "DESC": "繳費期限",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0601_CHKFLG": {
+        "DESC": "檢查記號",
+        "TYPE": "X(01)",
+        "VALUE": ""
+      },
+      "IT_G0601_ENTPNO": {
+        "DESC": "欲檢查之統編",
+        "TYPE": "X(10)",
+        "VALUE": ""
+      }
+    }
+  }

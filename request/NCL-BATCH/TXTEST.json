@@ -1,0 +1,48 @@
+{
+  "headers": {},
+  "apheader": {
+    "x_bot_client_id": "LOCAL",
+    "x_bot_server_id": "NCL",
+    "x_bot_client_seq": "000000000000000",
+    "x_bot_client_dt": "202307111420",
+    "x_bot_request_id": "82a42658-577e-4f9f-a8fd-6206007f87f3",
+    "x_bot_sys_syncno": "0",
+    "x_bot_branch_syncno": "0",
+    "x_bot_rt_batch_flag": "B",
+    "apheaders": {}
+  },
+  "payload": {
+    "pyheader": {
+      "pr_id": "TXTEST",
+      "tx_code": "TXTEST",
+      "dscpt": "0",
+      "rstinq": "0",
+      "hcode": "0",
+      "txcode_fmtid": "TXTEST_I",
+      "attributes": {
+        "BATCH_DATE": "01120704",
+        "incode": "CL060M",
+        "fmdate": "C",
+        "indate": "01120704",
+        "informat": "N",
+        "COMMIT_LIMIT": "1",
+        "TEST_TYPE": "BT001_BT200",
+        "BATCHNO": "",
+        "APKIND": "NCL",
+        "APITEM": "PUTF",
+        "FILENAME": "NOTIFY.txt",
+        "SYNC_FG": "1",
+        "PRFILETYPE": "",
+        "PRDID": "NCL",
+        "NTFCLSID": "01",
+        "DLVCHNL": "T",
+        "CNTADDR": "hannachu@bluetechnology.com.tw",
+        "NOTIFYTITLE": "臺銀代收月報",
+        "CONTENT": "臺銀代收月報"
+      }
+    },
+    "charsets": "UTF8",
+    "format": "TEXT",
+    "data": "MDAwMDAwMDAwMDAwMDA2MDAwMDAwMDAwMDAwMDAwICAwMCAgICAgICAwMCAgICAgMDAwMDAwMDAwMDAwMDAwMCAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTcwMDAwMDAwMDAwMDAwMDAwMDAwICAwMDAgICAgICAgICAgICAgICAgMDAwMDAwMDAwMDAgICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw"
+  }
+}

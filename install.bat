@@ -1,0 +1,1 @@
+npm install express cors @grpc/grpc-js @grpc/proto-loader ejs

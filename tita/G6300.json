@@ -1,0 +1,13 @@
+{
+    "TXCD": "G6300",
+    "LABEL": {
+        "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+        "IT_G6300_CODE": {
+            "DESC": "收付類別",
+            "TYPE": "X(06)",
+            "VALUE": ""
+        }
+    }
+}

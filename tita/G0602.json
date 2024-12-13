@@ -1,0 +1,48 @@
+{
+    "TXCD": "G0602",
+    "LABEL": {
+        "LABEL_TYPE": "FAS_TITA_LABEL"
+    },
+    "TEXT": {
+        "IT_G0602_KIND": {
+            "DESC": "維護種類",
+            "TYPE": "X(01)",
+            "VALUE": ""
+        },
+        "IT_G0602_CODE": {
+            "DESC": "收付類別",
+            "TYPE": "X(06)",
+            "VALUE": ""
+        },
+        "IT_G0602_RCPTID": {
+            "DESC": "虛擬帳號",
+            "TYPE": "X(16)",
+            "VALUE": ""
+        },
+        "IT_G0602_LDATE": {
+            "DESC": "繳款期限",
+            "TYPE": "9(08)",
+            "VALUE": ""
+        },
+        "IT_G0602_LTIME": {
+            "DESC": "繳款時限",
+            "TYPE": "9(06)",
+            "VALUE": ""
+        },
+        "IT_G0602_KDATE": {
+            "DESC": "保留期限",
+            "TYPE": "9(08)",
+            "VALUE": ""
+        },
+        "IT_G0602_PNAME": {
+            "DESC": "繳款人",
+            "TYPE": "X(30)",
+            "VALUE": ""
+        },
+        "IT_G0602_LFLG": {
+            "DESC": "逾期記號",
+            "TYPE": "9(01)",
+            "VALUE": ""
+        }
+    }
+}

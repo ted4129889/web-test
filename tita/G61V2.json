@@ -1,0 +1,178 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_V69_RESULT": {
+      "DESC": "扣帳結果",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_V69_TXDATE": {
+      "DESC": "超前起息日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_APCODE": {
+      "DESC": "應用系統代號",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_V69_TXUNIQUE": {
+      "DESC": "跨行交易序號",
+      "TYPE": "9(07)",
+      "VALUE": ""
+    },
+    "IT_V69_MODE": {
+      "DESC": "次日帳確認記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V69_STAN": {
+      "DESC": "IT_V69_STAN",
+      "TYPE": "9(10)",
+      "VALUE": ""
+    },
+    "IT_V69_CARDBNKNO1": {
+      "DESC": "發卡單位代號1",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_V69_CARDBNKNO2": {
+      "DESC": "發卡單位代號2",
+      "TYPE": "9(05)",
+      "VALUE": ""
+    },
+    "IT_V69_OUTACTNO": {
+      "DESC": "轉出帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_AVSIGN": {
+      "DESC": "存戶可用餘額正負",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V69_AVBAL": {
+      "DESC": "存戶可用餘額",
+      "TYPE": "9(11.2)",
+      "VALUE": ""
+    },
+    "IT_V69_ACCTSIGN": {
+      "DESC": "存戶帳戶餘額正負",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V69_ACCTBAL": {
+      "DESC": "存戶帳戶餘額",
+      "TYPE": "9(11.2)",
+      "VALUE": ""
+    },
+    "IT_V69_ADMSG": {
+      "DESC": "促銷應用訊息",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_INBKNO": {
+      "DESC": "轉入銀行別",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_INACTNO": {
+      "DESC": "轉入帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_TXAMT": {
+      "DESC": "入帳金額",
+      "TYPE": "9(11.2)",
+      "VALUE": ""
+    },
+    "IT_V69_TXFEE": {
+      "DESC": "手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V69_BOTFEE": {
+      "DESC": "財金手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V69_MARK": {
+      "DESC": "備註",
+      "TYPE": "X(30)",
+      "VALUE": ""
+    },
+    "IT_V69_TXTNO": {
+      "DESC": "平台原交易序號",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_TASKID": {
+      "DESC": "平台原TASKI",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_V69_FEECODE": {
+      "DESC": "費用代號",
+      "TYPE": "X(04)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID1": {
+      "DESC": "銷帳編號1",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID2": {
+      "DESC": "銷帳編號2",
+      "TYPE": "X(14)",
+      "VALUE": ""
+    },
+    "IT_V69_LMTDATE": {
+      "DESC": "繳款期限",
+      "TYPE": "X(08)",
+      "VALUE": ""
+    },
+    "IT_V69_FIL": {
+      "DESC": "IT_V69_FIL",
+      "TYPE": "X(12)",
+      "VALUE": ""
+    },
+    "IT_V69_TXCODE": {
+      "DESC": "交易代號",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_V69_RCPTID_G": {
+      "DESC": "銷帳編號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_V69_LMTDATE_G": {
+      "DESC": "繳款期限",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V69_EEACTNOCD": {
+      "DESC": "轉入帳戶性質別",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V69_EEACTNOFLG": {
+      "DESC": "轉入帳號性質別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V69_EEBOTACTNO": {
+      "DESC": "手機綁定帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V69_CODE": {
+      "DESC": "G61收付類別",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "TXCD": "G6200",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_G6200_CODE": {
+      "DESC": "收付類別",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_G6200_ACTNO": {
+      "DESC": "存入戶帳",
+      "TYPE": "9(12)",
+      "VALUE": ""
+    },
+    "IT_G6200_CFEE1": {
+      "DESC": "手續費",
+      "TYPE": "9(04.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_ENTPNO": {
+      "DESC": "統編",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_G6200_HENTPNO": {
+      "DESC": "母公司統編",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_CYCK1": {
+      "DESC": "挑檔週期1",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CYCNO1": {
+      "DESC": "挑檔週期2",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_CYCK2": {
+      "DESC": "對帳週期1",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CYCNO2": {
+      "DESC": "對帳週期2",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTDT": {
+      "DESC": "挑檔日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_TPUTDT": {
+      "DESC": "暫存挑檔日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_STOP": {
+      "DESC": "代收狀況記號",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_MSG1": {
+      "DESC": "整批入扣記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CHKAMT": {
+      "DESC": "檢查金額",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_UNIT": {
+      "DESC": "檢查單位",
+      "TYPE": "9(08.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_AMT": {
+      "DESC": "額度控管",
+      "TYPE": "9(13)",
+      "VALUE": ""
+    },
+    "IT_G6200_TOTAMT": {
+      "DESC": "累計金額",
+      "TYPE": "9(13)",
+      "VALUE": ""
+    },
+    "IT_G6200_TOTCNT": {
+      "DESC": "累計笊數",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_SCNAME": {
+      "DESC": "簡稱",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTADDR": {
+      "DESC": "EMAIL",
+      "TYPE": "X(100)",
+      "VALUE": ""
+    },
+    "IT_G6200_PRTINT": {
+      "DESC": "列印認證行數",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_CLSACTNO": {
+      "DESC": "記帳科目",
+      "TYPE": "X(14)",
+      "VALUE": ""
+    },
+    "IT_G6200_STOPDATE": {
+      "DESC": "代收付截止日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_STOPTIME": {
+      "DESC": "代收付截止時間",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_G6200_CLCRDB": {
+      "DESC": "借貸記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_MSG2": {
+      "DESC": "空檔記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CFEE4": {
+      "DESC": "事業單位每月給付費用",
+      "TYPE": "9(10.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_CFEEEB": {
+      "DESC": "全國性繳費稅交易手續費(內含)",
+      "TYPE": "9(03.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_EBTYPE": {
+      "DESC": "全國繳費稅管道",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_G6200_LKCODE": {
+      "DESC": "連動代收類別",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_G6200_PWTYPE": {
+      "DESC": "業務種類",
+      "TYPE": "X(03)",
+      "VALUE": ""
+    },
+    "IT_G6200_FEENAME": {
+      "DESC": "收付項目名稱",
+      "TYPE": "X(42)",
+      "VALUE": ""
+    },
+    "IT_G6200_FUNCD": {
+      "DESC": "功能選項",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_VRCODE": {
+      "DESC": "虛擬帳號繳款代碼",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_G6200_CNAME": {
+      "DESC": "單位名稱",
+      "TYPE": "X(40)",
+      "VALUE": ""
+    },
+    "IT_G6200_NETINFO": {
+      "DESC": "備註",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_G6200_CFEE2": {
+      "DESC": "主辦行給付代收行每筆費用",
+      "TYPE": "9(03.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_PBRNO": {
+      "DESC": "主辦分行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTNAME": {
+      "DESC": "媒體檔名",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTSEND": {
+      "DESC": "媒體檔傳送方式",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTFORM": {
+      "DESC": "媒體檔傳格式",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTTYPE": {
+      "DESC": "媒體種類",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUT_ENCODE": {
+      "DESC": "媒體檔編碼",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUT_COMPRESS": {
+      "DESC": "媒體檔壓縮記號",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_OPUTTIME": {
+      "DESC": "外部代收資料回應方式",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_AMTCYC": {
+      "DESC": "額度控管週期",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_AMTFG": {
+      "DESC": "額度控管週期類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_RIDDUP": {
+      "DESC": "銷帳編號重覆記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_DUPCYC": {
+      "DESC": "不可重覆週期",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTTIME": {
+      "DESC": "資料回應方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CHKTYPE": {
+      "DESC": "資料檢查方式",
+      "TYPE": "X(02)",
+      "VALUE": ""
+    },
+    "IT_G6200_HFLAG": {
+      "DESC": "是否可更正記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_CDATA": {
+      "DESC": "當日有外部代收交易明細記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_FKD": {
+      "DESC": "手續費種類",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_MFEE": {
+      "DESC": "給付中華電信每筆中介費用",
+      "TYPE": "9(03.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_CFEE3": {
+      "DESC": "臨櫃手續費用",
+      "TYPE": "9(04.2)",
+      "VALUE": ""
+    },
+    "IT_G6200_STDATE": {
+      "DESC": "收付開始日期",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_G6200_STTIME": {
+      "DESC": "收付開始時間",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_G6200_PUTDTFG": {
+      "DESC": "挑檔日類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G6200_SUBFG": {
+      "DESC": "分戶類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    }
+  }
+}

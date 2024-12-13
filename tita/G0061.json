@@ -1,0 +1,33 @@
+{
+  "TXCD": "G0061",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_G0061_CODE": {
+      "DESC": "收付類別",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_G0061_PBRNO": {
+      "DESC": "主辦行",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_G0061_KIND": {
+      "DESC": "查詢種類",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_G0061_RCPTID": {
+      "DESC": "虛擬帳號",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_G0061_PUTNAME": {
+      "DESC": "媒體檔名",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    }
+  }
+}

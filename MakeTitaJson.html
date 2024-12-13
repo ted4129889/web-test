@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to JSON Converter</title>
+</head>
+<body>
+  <h1>Text to JSON Converter</h1>
+  <textarea id="inputText" rows="10" cols="50" placeholder="Paste your text here..."></textarea>
+  <br>
+  <button onclick="convertToJSON()">Convert</button>
+  <h2>JSON Output</h2>
+  <textarea id="jsonOutput" rows="10" cols="50" ></textarea>
+
+  <script>
+    function convertToJSON() {
+      const inputText = document.getElementById('inputText').value.trim();
+      const lines = inputText.split('\n');
+
+      const jsonOutput = {
+        "TXCD": "",
+        "LABEL": {
+          "LABEL_TYPE": "FAS_TITA_LABEL"
+        },
+        "TEXT": {}
+      };
+
+      lines.forEach(line => {
+        const [key, desc, type] = line.split(/\s+/);
+        jsonOutput.TEXT[key] = {
+          "DESC": desc,
+          "TYPE": type,
+          "VALUE": ""
+        };
+      });
+
+      document.getElementById('jsonOutput').textContent = JSON.stringify(jsonOutput, null, 2);
+    }
+  </script>
+</body>
+</html>

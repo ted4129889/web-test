@@ -1,0 +1,153 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_V86_TXDATE": {
+      "DESC": "超前起息日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V86_DSPTX": {
+      "DESC": "轉出帳號備註",
+      "TYPE": "X(30)",
+      "VALUE": ""
+    },
+    "IT_V86_ROLE": {
+      "DESC": "角色",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V86_RBANK": {
+      "DESC": "自行或跨行",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V86_TYPE": {
+      "DESC": "交易類別",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V86_TIX": {
+      "DESC": "交易代號",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_V86_CID": {
+      "DESC": "發動者統編",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_V86_USERNO": {
+      "DESC": "用戶號碼",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_V86_ID": {
+      "DESC": "入扣帳者統編",
+      "TYPE": "X(10)",
+      "VALUE": ""
+    },
+    "IT_V86_CHKID": {
+      "DESC": "檢核類型",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V86_ACCTFROM": {
+      "DESC": "轉出帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V86_ACCTTOG1": {
+      "DESC": "轉入帳號前2碼",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_V86_ACCTTOG2": {
+      "DESC": "轉入帳號後14碼",
+      "TYPE": "X(14)",
+      "VALUE": ""
+    },
+    "IT_V86_FEESTY": {
+      "DESC": "手續費計費方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V86_TXFEE": {
+      "DESC": "手續費總額",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V86_ACHFEE": {
+      "DESC": "應付票交手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V86_OTHERFEE": {
+      "DESC": "應付同業手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V86_CUSTFEE": {
+      "DESC": "客戶支付手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V86_STAGE": {
+      "DESC": "清算階段",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_V86_LMTDATE": {
+      "DESC": "代收條碼一截止日",
+      "TYPE": "9(06)",
+      "VALUE": ""
+    },
+    "IT_V86_CODE": {
+      "DESC": "代收條碼一",
+      "TYPE": "X(03)",
+      "VALUE": ""
+    },
+    "IT_V86_CODE12": {
+      "DESC": "代收條碼二",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_V86_BDATE": {
+      "DESC": "代收條碼三",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_V86_BAMT": {
+      "DESC": "代收條碼三",
+      "TYPE": "9(09)",
+      "VALUE": ""
+    },
+    "IT_V86_KIND": {
+      "DESC": "銷帳資料類型",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V86_PAY": {
+      "DESC": "繳費工具",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V86_CODEC": {
+      "DESC": "IT_V86_CODEC",
+      "TYPE": "X(06)",
+      "VALUE": ""
+    },
+    "IT_V86_RCPTID": {
+      "DESC": "IT_V86_RCPTID",
+      "TYPE": "X(16)",
+      "VALUE": ""
+    },
+    "IT_V86_WARN": {
+      "DESC": "繳費交易",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    }
+  }
+}

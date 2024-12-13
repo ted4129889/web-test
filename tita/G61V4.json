@@ -1,0 +1,148 @@
+{
+  "TXCD": "",
+  "LABEL": {
+    "LABEL_TYPE": "FAS_TITA_LABEL"
+  },
+  "TEXT": {
+    "IT_V70_TXDATE": {
+      "DESC": "超前起息日",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V70_CHKFG": {
+      "DESC": "次日帳確認記號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_DSKIND": {
+      "DESC": "備註類別",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_V70_DSTEXT": {
+      "DESC": "備註文字",
+      "TYPE": "X(26)",
+      "VALUE": ""
+    },
+    "IT_V70_FIL1": {
+      "DESC": "IT_V70_FIL1",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V70_FEEOBJ": {
+      "DESC": "收費對象",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_FEESTY": {
+      "DESC": "收費方式",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_FEEITEM": {
+      "DESC": "收費項目",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_TXFEE": {
+      "DESC": "手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V70_FISCFEE": {
+      "DESC": "財金手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V70_BOTFEE": {
+      "DESC": "台銀手續費",
+      "TYPE": "9(05.2)",
+      "VALUE": ""
+    },
+    "IT_V70_ORGSYS": {
+      "DESC": "指示系統代號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_DESTSYS": {
+      "DESC": "入帳系統代號",
+      "TYPE": "9(01)",
+      "VALUE": ""
+    },
+    "IT_V70_FEXID": {
+      "DESC": "前置轉帳交易序號EAITXNO",
+      "TYPE": "9(07)",
+      "VALUE": ""
+    },
+    "IT_V70_INBKSNO": {
+      "DESC": "跨行交易編號",
+      "TYPE": "X(20)",
+      "VALUE": ""
+    },
+    "IT_V70_PAYTYPE": {
+      "DESC": "付款型態",
+      "TYPE": "X(01)",
+      "VALUE": ""
+    },
+    "IT_V70_BCHID": {
+      "DESC": "交易批號",
+      "TYPE": "X(30)",
+      "VALUE": ""
+    },
+    "IT_V70_PAYID": {
+      "DESC": "付款序號",
+      "TYPE": "9(14)",
+      "VALUE": ""
+    },
+    "IT_V70_SETDATE": {
+      "DESC": "清算日期",
+      "TYPE": "9(08)",
+      "VALUE": ""
+    },
+    "IT_V70_REMTYPE": {
+      "DESC": "匯款型別",
+      "TYPE": "9(02)",
+      "VALUE": ""
+    },
+    "IT_V70_TRFBK": {
+      "DESC": "收款銀行",
+      "TYPE": "9(07)",
+      "VALUE": ""
+    },
+    "IT_V70_RECACT": {
+      "DESC": "收款人帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    },
+    "IT_V70_REMNAM": {
+      "DESC": "收款人姓名",
+      "TYPE": "X(68)",
+      "VALUE": ""
+    },
+    "IT_V70_RECARD": {
+      "DESC": "收款人地址",
+      "TYPE": "X(52)",
+      "VALUE": ""
+    },
+    "IT_V70_RTREMARK": {
+      "DESC": "匯款備註",
+      "TYPE": "X(52)",
+      "VALUE": ""
+    },
+    "IT_V70_GBRNO": {
+      "DESC": "匯款行別1",
+      "TYPE": "9(03)",
+      "VALUE": ""
+    },
+    "IT_V70_BBRNO": {
+      "DESC": "匯款行別2",
+      "TYPE": "9(04)",
+      "VALUE": ""
+    },
+    "IT_V70_PAYACT": {
+      "DESC": "扣款人帳號",
+      "TYPE": "9(16)",
+      "VALUE": ""
+    }
+  }
+}
