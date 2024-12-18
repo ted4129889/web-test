@@ -1,7 +1,7 @@
 {
   "headers": {},
   "apheader": {
-    "x_bot_client_id": "1",
+    "x_bot_client_id": "",
     "x_bot_server_id": "NCL",
     "x_bot_client_seq": "000000000000000",
     "x_bot_client_dt": "202307111420",
@@ -13,14 +13,14 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "MisBctl",
-      "tx_code": "MisBctl",
+      "pr_id": "EisCkbal",
+      "tx_code": "EisCkbal",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "BATCH_DATE": "20241104",
         "batchDate": "20241104"
-       }
+      }
     },
     "charsets": "UTF8",
     "format": "TEXT",

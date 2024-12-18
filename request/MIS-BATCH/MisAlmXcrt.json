@@ -13,13 +13,13 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "MisBctl",
-      "tx_code": "MisBctl",
+      "pr_id": "MisAlmXcrt",
+      "tx_code": "MisAlmXcrt",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
-        "batchDate": "20241104"
+        "BATCH_DATE": "1131104",
+        "batchDate": "1131104"
        }
     },
     "charsets": "UTF8",

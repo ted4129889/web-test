@@ -1,0 +1,28 @@
+{
+    "TXCD": "",
+    "LABEL": {
+      "LABEL_TYPE": "FSAP_TITA_LABEL"
+    },
+    "TEXT": {
+      "IT_G0128_TXDATE": {
+        "DESC": "查詢日期",
+        "TYPE": "9(08)",
+        "VALUE": ""
+      },
+      "IT_G0128_INQACBRNO": {
+        "DESC": "分行別",
+        "TYPE": "9(03)",
+        "VALUE": ""
+      },
+      "IT_G0128_INQCURCD": {
+        "DESC": "幣別",
+        "TYPE": "9(02)",
+        "VALUE": ""
+      },
+      "IT_G0128_INQTY": {
+        "DESC": "查詢種類",
+        "TYPE": "9(01)",
+        "VALUE": ""
+      }
+    }
+  }
