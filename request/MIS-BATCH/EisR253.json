@@ -13,13 +13,14 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "AcAcct",
-      "tx_code": "AcAcct",
+      "pr_id": "EisR253",
+      "tx_code": "EisR253",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
-        "batchDate": "20241104"
+        "BATCH_DATE": "20241204",
+        "batchDate": "20241230",
+        "monthDate": "20241331"
       }
     },
     "charsets": "UTF8",
