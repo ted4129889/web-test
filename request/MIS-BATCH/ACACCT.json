@@ -18,8 +18,8 @@
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
-        "batchDate": "20241104"
+        "BATCH_DATE": "20241108",
+        "batchDate": "20241108"
       }
     },
     "charsets": "UTF8",
