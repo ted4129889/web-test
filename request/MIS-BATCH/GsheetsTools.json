@@ -2,12 +2,8 @@
   "headers": {},
   "apheader": {
     "x_bot_client_id": "1",
-    "x_bot_server_id": "NCL",
     "x_bot_client_seq": "000000000000000",
-    "x_bot_client_dt": "202307111420",
     "x_bot_request_id": "82a42658-577e-4f9f-a8fd-6206007f87f3",
-    "x_bot_sys_syncno": "0",
-    "x_bot_branch_syncno": "0",
     "x_bot_rt_batch_flag": "B",
     "apheaders": {}
   },
@@ -18,17 +14,21 @@
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "sql": "SELECT\n            f.db_ftxac_txdate AS txdate,\n            f.db_ftxac_kinbr  AS kinbr,\n            f.db_ftxac_rbrno  AS rbrno,\n            f.db_ftxac_aptype AS aptype,\n            '\"' + left(f.db_ftxac_txcd + replicate(' ', 5),\n                       5) + '\"'         AS txcd,\n            f.db_ftxac_txseq  AS txseq,\n            f.db_ftxac_wsno   AS wsno,\n            f.db_ftxac_txtno  AS txtno,\n            f.db_ftxac_acbrno AS acbrno,\n            f.db_ftxac_dept1  AS dept1,\n            '\"' + left(f.db_ftxac_acno + replicate(' ', 6),\n                       6) + '\"'         AS acno,\n            '\"' + left(f.db_ftxac_sbno + replicate(' ', 4),\n                       4) + '\"'         AS sbno,\n            '\"' + left(f.db_ftxac_dtlno + replicate(' ', 4),\n                       4) + '\"'         AS dtlno,\n            f.db_ftxac_chkdg  AS chkdg,\n            f.db_ftxac_curcd  AS curcd,\n            f.db_ftxac_dbcr   AS dbcr,\n            f.db_ftxac_amt    AS amt,\n            '\"' + left(f.db_ftxac_type + replicate(' ', 2),\n                       2) + '\"'         AS type,\n            f.db_ftxac_seqno  AS seqno,\n            f.db_ftxac_actfg  AS actfg,\n            f.db_ftxac_hcode  AS hcode,\n            f.db_ftxac_dmyfg  AS dmyfg,\n            f.db_ftxac_txtime AS txtime,\n            f.db_ftxac_dept1  AS dept1,\n            '\"' + left(f.db_ftxac_tlrno + replicate(' ', 2),\n                       2) + '\"'         AS tlrno,\n            '\"' + left(f.db_ftxac_supno + replicate(' ', 2),\n                       2) + '\"'         AS supno,\n            f.db_ftxac_rkinbr AS rkinbr,\n            '\"' + left(f.db_ftxac_refno + replicate(' ', 16),\n                       16) + '\"'        AS refno,\n            '\"' + left(f.db_ftxac_docno + replicate(' ', 9),\n                       9) + '\"'         AS docno,\n            '\"' + left(f.db_ftxac_cifkey + replicate(' ', 10),\n                       10) + '\"'        AS cifkey,\n            f.db_ftxac_corpno AS corpno,\n            f.db_ftxac_opfg   AS opfg,\n            f.db_ftxac_charcd AS charcd,\n            f.db_ftxac_mbrno  AS mbrno,\n            f.db_ftxac_mdept1 AS mdept1,\n            '\"' + left(f.db_ftxac_macno + replicate(' ', 6),\n                       6) + '\"'         AS macno,\n            '\"' + left(f.db_ftxac_msbno + replicate(' ', 4),\n                       4) + '\"'         AS msbno,\n            '\"' + left(f.db_ftxac_mdtlno + replicate(' ', 4),\n                       4) + '\"'         AS mdtlno,\n            f.db_ftxac_mchkdg AS mchkdg,\n            '\"' + left(f.db_ftxac_remark + replicate(' ', 62),\n                       62) + '\"'        AS remark\n        FROM\n            botsrdb.db_ftxac_dds f\n        WHERE\n            f.db_ftxac_txdate = :batchDate",
+        "case": "output",
+        "BATCH_DATE": "20241104",
+        "batchDate": "20241104",
+        "sql": "SELECT\n    :batchDate   AS sday,\n    :batchDate   AS eday,\n    'DUFX0005.D' AS flnm,\n    convert(varchar(8),\n            getdate() AT TIME ZONE 'UTC' AT TIME ZONE 'Taipei Standard Time',\n            112) AS sysdy,\n    replace(convert(varchar(8),\n                    getdate() AT TIME ZONE 'UTC' AT TIME ZONE 'Taipei Standard Time',\n                    108),\n            ':',\n            '')  AS systm,\n    COUNT(*)     AS totcnt\nFROM\n    botsrdb.db_fbkbal_dds f\nWHERE\n    f.db_fbkbal_txdate = :batchDate",
         "sql.param": "batchDate",
-        "header.useSqlData": "false",
+        "header.useSqlData": "true",
         "header.separator": "",
-        "body.useSqlData": "true",
-        "body.separator": ",",
+        "body.useSqlData": "false",
+        "body.separator": "",
         "sheetId": "1WIAM3-10mSYUzHkUbsklB3Ea6xloyeuqDzanF-OU65Y",
-        "sheetName": "DUFX0004.D",
-        "startRow": "19",
-        "endRow": "125",
-        "outputXmlName": "DUFX0004.[yyyymmdd].D"
+        "sheetName": "DUFX0005.H",
+        "startRow": "17",
+        "endRow": "22",
+        "outputFileName": "DUFX0005.[yyyymmdd].H",
+        "useDB": "false"
       }
     },
     "charsets": "UTF8",
