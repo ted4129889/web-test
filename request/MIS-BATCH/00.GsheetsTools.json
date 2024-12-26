@@ -1,0 +1,38 @@
+{
+  "headers": {},
+  "apheader": {
+    "x_bot_client_id": "1",
+    "x_bot_client_seq": "000000000000000",
+    "x_bot_request_id": "82a42658-577e-4f9f-a8fd-6206007f87f3",
+    "x_bot_rt_batch_flag": "B",
+    "apheaders": {}
+  },
+  "payload": {
+    "pyheader": {
+      "pr_id": "GsheetsTools",
+      "tx_code": "GsheetsTools",
+      "dscpt": "0",
+      "txcode_fmtid": "CL_BATCH_I",
+      "attributes": {
+        "case": "output",
+        "BATCH_DATE": "20241104",
+        "batchDate": "20241104",
+        "sql": "  SELECT\n    db_bctl_rgno   AS rgno,\n    db_bctl_area   AS area,\n    db_bctl_brno   AS brno,\n    db_bctl_boff   AS boff,\n    db_bctl_micr   AS micr,\n    db_bctl_frex   AS frex,\n    db_bctl_rtolbr AS rtolbr,\n    db_bctl_brname AS brname,\n    db_bctl_monbr  AS monbr,\n    CASE\n        WHEN db_bctl_class IS NULL\n             OR isnumeric(db_bctl_class) = 0 THEN\n            0\n        ELSE\n            db_bctl_class\n    END            AS class,\n    db_bctl_seq    AS seq,\n    db_bctl_arcd   AS arcd,\n    CASE\n        WHEN nullif(db_bctl_zipcd, '') IS NULL THEN\n            '    '\n        ELSE\n            db_bctl_zipcd\n    END            AS zipcd,\n    db_bctl_chcd   AS chcd,\n    db_bctl_chnam  AS chnam\nFROM\n    botsrdb.db_bctl_dds\nWHERE\n    db_bctl_brno < 990",
+        "sql.param": "",
+        "header.useSqlData": "false",
+        "header.separator": "",
+        "body.useSqlData": "true",
+        "body.separator": ",",
+        "sheetId": "1CdE0a5lxRUglkjPYXwt8NA2qPSIx2LuelSJPUfH8GzA",
+        "sheetName": "DUOT0002.D",
+        "startRow": "19",
+        "endRow": "53",
+        "outputFileName": "DUOT0002.[yyyymmdd].D",
+        "useDB": "true"
+      }
+    },
+    "charsets": "UTF8",
+    "format": "TEXT",
+    "data": ""
+  }
+}
