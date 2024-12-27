@@ -6,24 +6,24 @@
 
 /* 卷軸軌道 */
 ::-webkit-scrollbar-track {
-    background: #B5CAA0;
+    background: #e6f1f7;
     border-radius: 10px;
 }
 
 /* 滑塊 */
 ::-webkit-scrollbar-thumb {
-    background: #B5CAA0;
+    background: #e6f1f7;
     border-radius: 10px;
 }
 
 /* 滑塊懸停時 */
 ::-webkit-scrollbar-thumb:hover {
-    background: #B5CAA0;
+    background: #e6f1f7;
 }
 
 /* 卷軸的左右箭頭按鈕 */
 ::-webkit-scrollbar-button {
-    background: #B5CAA0;
+    background: #e6f1f7;
     border-radius: 10px;
     display: none;
 }
@@ -31,13 +31,13 @@
 /* for Firefox & IE 10+ */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #B5CAA0 #f1f1f1;
+    scrollbar-color: #e6f1f7 #f1f1f1;
     -ms-overflow-style: none;
 }
 
 body {
     display: flex;
-    background: #B5CAA0;
+    background: #e6f1f7;
     flex-direction: column;
     height: 100vh;
     margin: 0;
@@ -110,7 +110,7 @@ body {
 input {
     width: 100%;
     padding: 5px;
-    background-color: #B5CAA0;
+    background-color: #e6f1f7;
     box-sizing: border-box;
     border: 1px solid #999999;
     border-radius: 4px;
@@ -120,7 +120,7 @@ input {
 textarea {
     width: 100%;
     box-sizing: border-box;
-    background-color: #B5CAA0;
+    background-color: #e6f1f7;
     border-radius: 4px;
     font-size: 0.8em
 }
@@ -130,7 +130,7 @@ textarea {
     min-width: 300px;
     width: 100%;
     margin: 10px 0;
-    background-color: #B5CAA0;
+    background-color: #e6f1f7;
     border-radius: 4px;
     font-size: 1em
 }
@@ -176,7 +176,7 @@ textarea {
     min-width: 95px;
     width: 15%;
     position: relative;
-    background-color: #B5CAA0;
+    background-color: #e6f1f7;
     border: 2px solid #222222;
     color: #222222;
     font-size: 1em;
