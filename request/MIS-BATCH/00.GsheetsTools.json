@@ -15,20 +15,18 @@
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "case": "output",
-        "BATCH_DATE": "20241104",
-        "batchDate": "20241104",
-        "sql": "  SELECT\n    db_bctl_rgno   AS rgno,\n    db_bctl_area   AS area,\n    db_bctl_brno   AS brno,\n    db_bctl_boff   AS boff,\n    db_bctl_micr   AS micr,\n    db_bctl_frex   AS frex,\n    db_bctl_rtolbr AS rtolbr,\n    db_bctl_brname AS brname,\n    db_bctl_monbr  AS monbr,\n    CASE\n        WHEN db_bctl_class IS NULL\n             OR isnumeric(db_bctl_class) = 0 THEN\n            0\n        ELSE\n            db_bctl_class\n    END            AS class,\n    db_bctl_seq    AS seq,\n    db_bctl_arcd   AS arcd,\n    CASE\n        WHEN nullif(db_bctl_zipcd, '') IS NULL THEN\n            '    '\n        ELSE\n            db_bctl_zipcd\n    END            AS zipcd,\n    db_bctl_chcd   AS chcd,\n    db_bctl_chnam  AS chnam\nFROM\n    botsrdb.db_bctl_dds\nWHERE\n    db_bctl_brno < 990",
-        "sql.param": "",
+        "sql": "SELECT\n    ap.db_actpsn_ludate AS ludate,\n    ci.db_cifact_cifkey AS custid,\n    ap.db_actpsn_zipno1 AS zipno1,\n    ap.db_actpsn_zipno2 AS zipno2,\n    ap.db_actpsn_addr   AS addr\nFROM\n    botsrdb.db_actpsn_dds ap\n    LEFT JOIN botsrdb.db_cifact_dds ci ON ci.db_cifact_actno = ap.db_actpsn_actno\nWHERE\n        ap.db_actpsn_ludate = :batchDate\n    AND ap.db_actpsn_actno != 0\n    AND ci.db_cifact_cifkey IS NOT NULL\n    AND ap.db_actpsn_ludate >= 880100\n    AND ci.db_cifact_actaddr != 0\nUNION ALL\nSELECT\n    ac.db_actcmp_ludate AS ludate,\n    ci.db_cifact_cifkey AS custid,\n    ac.db_actcmp_zipno1 AS zipno1,\n    ac.db_actcmp_zipno2 AS zipno2,\n    ac.db_actcmp_addr   AS addr\nFROM\n    botsrdb.db_actcmp_dds ac\n    LEFT JOIN botsrdb.db_cifact_dds ci ON ci.db_cifact_actno = ac.db_actcmp_actno\nWHERE\n        ac.db_actcmp_ludate = :batchDate\n    AND ac.db_actcmp_actno != 0\n    AND ci.db_cifact_cifkey IS NOT NULL\n    AND ac.db_actcmp_ludate >= 880100\n    AND ci.db_cifact_actaddr != 0\nORDER BY　custid　ASC , ludate DESC",
+        "sql.param": "batchDate",
         "header.useSqlData": "false",
         "header.separator": "",
         "body.useSqlData": "true",
-        "body.separator": ",",
+        "body.separator": "",
+        "useDB": "false",
         "sheetId": "1CdE0a5lxRUglkjPYXwt8NA2qPSIx2LuelSJPUfH8GzA",
-        "sheetName": "DUOT0002.D",
+        "sheetName": "AMPS-CUSADDR",
         "startRow": "19",
-        "endRow": "53",
-        "outputFileName": "DUOT0002.[yyyymmdd].D",
-        "useDB": "true"
+        "endRow": "23",
+        "outputFileName": "AMPS-CUSADDR"
       }
     },
     "charsets": "UTF8",
