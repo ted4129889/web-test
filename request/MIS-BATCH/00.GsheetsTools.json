@@ -15,18 +15,18 @@
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "case": "output",
-        "sql": "SELECT\n    ap.db_actpsn_ludate AS ludate,\n    ci.db_cifact_cifkey AS custid,\n    ap.db_actpsn_zipno1 AS zipno1,\n    ap.db_actpsn_zipno2 AS zipno2,\n    ap.db_actpsn_addr   AS addr\nFROM\n    botsrdb.db_actpsn_dds ap\n    LEFT JOIN botsrdb.db_cifact_dds ci ON ci.db_cifact_actno = ap.db_actpsn_actno\nWHERE\n        ap.db_actpsn_ludate = :batchDate\n    AND ap.db_actpsn_actno != 0\n    AND ci.db_cifact_cifkey IS NOT NULL\n    AND ap.db_actpsn_ludate >= 880100\n    AND ci.db_cifact_actaddr != 0\nUNION ALL\nSELECT\n    ac.db_actcmp_ludate AS ludate,\n    ci.db_cifact_cifkey AS custid,\n    ac.db_actcmp_zipno1 AS zipno1,\n    ac.db_actcmp_zipno2 AS zipno2,\n    ac.db_actcmp_addr   AS addr\nFROM\n    botsrdb.db_actcmp_dds ac\n    LEFT JOIN botsrdb.db_cifact_dds ci ON ci.db_cifact_actno = ac.db_actcmp_actno\nWHERE\n        ac.db_actcmp_ludate = :batchDate\n    AND ac.db_actcmp_actno != 0\n    AND ci.db_cifact_cifkey IS NOT NULL\n    AND ac.db_actcmp_ludate >= 880100\n    AND ci.db_cifact_actaddr != 0\nORDER BY　custid　ASC , ludate DESC",
-        "sql.param": "batchDate",
+        "sql": "",
+        "sql.param": "",
         "header.useSqlData": "false",
         "header.separator": "",
-        "body.useSqlData": "true",
-        "body.separator": "",
+        "body.useSqlData": "false",
+        "body.separator": ",",
         "useDB": "false",
-        "sheetId": "1CdE0a5lxRUglkjPYXwt8NA2qPSIx2LuelSJPUfH8GzA",
-        "sheetName": "AMPS-CUSADDR",
+        "sheetId": "1Z--Ggzt_IvfCW4MWz_KX1ysP-Gzs9jgdPqBpP7VNP8k",
+        "sheetName": "AB297",
         "startRow": "19",
-        "endRow": "23",
-        "outputFileName": "AMPS-CUSADDR"
+        "endRow": "33",
+        "outputFileName": "AB297"
       }
     },
     "charsets": "UTF8",
