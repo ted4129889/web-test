@@ -9,24 +9,23 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "GsheetsTools",
       "tx_code": "GsheetsTools",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "case": "output",
-        "sql": "SELECT \n   txdate  - 19110000 AS date,\n    BRNO AS brno,\n    BAL36A AS bal36a,\n    BAL36B AS bal36b,\n    BAL36C AS bal36c,\n    BAL36D AS bal36d,\n    BAL36E AS bal36e,\n    BAL36F AS bal36f,\n    BAL38A AS bal38a,\n    BAL38B AS bal38b,\n    BAL38C AS bal38c,\n    BAL38D AS bal38d,\n    BAL38E AS bal38e,\n    BAL38F AS bal38f,\n    BAL39A AS bal39a,\n    BAL39B AS bal39b,\n    BAL39C AS bal39c,\n    BAL39D AS bal39d,\n    BAL39E AS bal39e,\n    BAL39F AS bal39f,\n    BAL45A AS bal45a,\n    BAL45B AS bal45b,\n    BAL45C AS bal45c,\n    BAL45D AS bal45d,\n    BAL45E AS bal45e,\n    BAL45F AS bal45f\nFROM \n    misbhdb.treasdly\nWHERE \n    txdate >= CAST(FORMAT(DATEADD(MONTH, -2, :batchDate), 'yyyyMMdd') AS INT)\nORDER BY \n    txdate ASC, \n    BRNO ASC",
-        "sql.param": "batchDate",
+        "sql": "",
+        "sql.param": "",
         "header.useSqlData": "false",
         "header.separator": "",
-        "body.useSqlData": "true",
+        "body.useSqlData": "false",
         "body.separator": ",",
         "useDB": "false",
-        "sheetId": "1Z--Ggzt_IvfCW4MWz_KX1ysP-Gzs9jgdPqBpP7VNP8k",
-        "sheetName": "TREASDLY",
+        "sheetId": "1Z--Ggzt_IvfCW4MWz_KX1ysP-Gzs9jgd PqBpP7VNP8k",
+        "sheetName": "DWMM0008.D",
         "startRow": "19",
-        "endRow": "36",
-        "outputFileName": "TREASDLY"
+        "endRow": "137",
+        "outputFileName": "DWMM0008.[yyyymmdd].D"
       }
     },
     "charsets": "UTF8",

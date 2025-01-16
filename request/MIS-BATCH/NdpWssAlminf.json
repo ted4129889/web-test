@@ -13,12 +13,10 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "NdpWssAlminf",
       "tx_code": "NdpWssAlminf",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
         "batchDate": "20241104",
         "batchDateLastMonth": "20241031",
         "batchDateThisMonthFinal": "20241129"

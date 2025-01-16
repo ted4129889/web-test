@@ -9,7 +9,6 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "AcAcct",
       "tx_code": "AcAcct",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {

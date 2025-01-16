@@ -13,12 +13,10 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "MisCre2ods",
       "tx_code": "MisCre2ods",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
         "batchDate": "20241104"
       }
     },

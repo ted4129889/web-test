@@ -13,12 +13,10 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "MisAb1185",
       "tx_code": "MisAb1185",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "20241104",
         "batchDate": "20241104"
        }
     },

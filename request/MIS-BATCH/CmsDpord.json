@@ -9,7 +9,6 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "CmsDpord",
       "tx_code": "CmsDpord",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",

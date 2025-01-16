@@ -13,12 +13,10 @@
   },
   "payload": {
     "pyheader": {
-      "pr_id": "EisR253Trsvacc",
       "tx_code": "EisR253Trsvacc",
       "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "BATCH_DATE": "1131104",
         "batchDate": "1131104"
        }
     },
