@@ -15,7 +15,6 @@
     "pyheader": {
       "pr_id": "PRETRUST",
       "tx_code": "PRETRUST_S01",
-      "dscpt": "0",
       "rstinq": "0",
       "hcode": "0",
       "txcode_fmtid": "PRETRUST_S01_I",

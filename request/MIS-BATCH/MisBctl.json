@@ -14,7 +14,6 @@
   "payload": {
     "pyheader": {
       "tx_code": "MisBctl",
-      "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "batchDate": "20241104"

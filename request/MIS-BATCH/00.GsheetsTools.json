@@ -10,7 +10,6 @@
   "payload": {
     "pyheader": {
       "tx_code": "GsheetsTools",
-      "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "case": "output",

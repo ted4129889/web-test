@@ -15,7 +15,6 @@
     "pyheader": {
       "pr_id": "TXTEST",
       "tx_code": "TXTEST",
-      "dscpt": "0",
       "rstinq": "0",
       "hcode": "0",
       "txcode_fmtid": "TXTEST_I",

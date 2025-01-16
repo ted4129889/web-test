@@ -14,13 +14,12 @@
   "payload": {
     "pyheader": {
       "tx_code": "CONVFLOW",
-      "dscpt": "0",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "BTNNO": "1",
         "BBSDY": "01120704",
         "JOB": "CONVFLOW",
-        "BATCH_DATE": "01131104"
+        "batchDate": "01131104"
       }
     },
     "charsets": "UTF8",
