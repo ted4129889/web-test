@@ -1,0 +1,28 @@
+{
+  "headers": {},
+  "apheader": {
+    "x_bot_client_id": "",
+    "x_bot_client_seq": "",
+    "x_bot_request_id": "",
+    "x_bot_rt_batch_flag": "B",
+    "apheaders": {}
+  },
+  "payload": {
+    "pyheader": {
+      "tx_code": "GsheetsTools",
+      "txcode_fmtid": "CL_BATCH_I",
+      "attributes": {
+        "case": "dblist",
+        "batchDate": "20241104",
+        "sheetId": "17yN8zBkM2fucOv9xPJ07nkoNBgmsSrqFaP_EyIPMHnQ",
+        "sheetName": "遮蔽欄位清單",
+        "startRow": "2",
+        "endRow": "249",
+        "outputFileName": ""
+      }
+    },
+    "charsets": "UTF8",
+    "format": "TEXT",
+    "data": ""
+  }
+}
