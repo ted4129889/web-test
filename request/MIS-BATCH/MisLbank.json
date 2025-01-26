@@ -16,7 +16,7 @@
       "tx_code": "MisLbank",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-ㄋ        "batchDate": "20241104"
+        "batchDate": "20241104"
       }
     },
     "charsets": "UTF8",
