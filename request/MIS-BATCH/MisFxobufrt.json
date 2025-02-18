@@ -16,8 +16,7 @@
       "tx_code": "MisFxobufrt",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "batchDate": "20241104",
-        "batchDate01": "20241110"
+        "batchDate": "20241104"
       }
     },
     "charsets": "UTF8",
