@@ -1,0 +1,22 @@
+{
+  "headers": {},
+  "apheader": {
+    "x_bot_client_id": "1",
+    "x_bot_client_seq": "000000000000000",
+    "x_bot_request_id": "82a42658-577e-4f9f-a8fd-6206007f87f3",
+    "x_bot_rt_batch_flag": "B",
+    "apheaders": {}
+  },
+  "payload": {
+    "pyheader": {
+      "tx_code": "NfxObufin2Dem069",
+      "txcode_fmtid": "CL_BATCH_I",
+      "attributes": {
+        "batchDate": "20241104"
+      }
+    },
+    "charsets": "UTF8",
+    "format": "TEXT",
+    "data": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {},
+  "apheader": {
+    "x_bot_client_id": "",
+    "x_bot_client_seq": "",
+    "x_bot_request_id": "",
+    "x_bot_rt_batch_flag": "B",
+    "apheaders": {}
+  },
+  "payload": {
+    "pyheader": {
+      "tx_code": "CmsTodbGvvar",
+      "txcode_fmtid": "CL_BATCH_I",
+      "attributes": {
+        "batchDate": "20241104"
+      }
+    },
+    "charsets": "UTF8",
+    "format": "TEXT",
+    "data": ""
+  }
+}
