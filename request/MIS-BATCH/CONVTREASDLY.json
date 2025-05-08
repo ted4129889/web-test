@@ -13,7 +13,7 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "CONVTRCT",
+      "tx_code": "CONVTREASDLY",
       "batchtype": "D",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
