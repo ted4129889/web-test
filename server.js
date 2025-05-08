@@ -6,10 +6,22 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 const port = 3000;
-const GRPC_HOST = 'localhost:8081';
+const GRPC_HOST = "localhost:8081";
 // const GRPC_HOST = '10.1.9.16:50001'; // fac
 // const GRPC_HOST = '10.1.9.167:50001'; // NCL
 // const GRPC_HOST = '10.1.9.211:50001'; // NCL-BATCH
+
+//20250508 Ted 暫時增加日批月批切換的ip
+function decideGrpcHost(request) {
+  if (request.payload.pyheader.batchtype === 'D') {
+    return 'localhost:8081';
+  } else if (request.payload.pyheader.batchtype === 'M') {
+    return 'localhost:8091';
+  } else {
+    return 'localhost:8081';
+  }
+}
+
 
 app.use(express.json());
 app.use(cors());
@@ -50,9 +62,15 @@ class GrpcClientManager {
     }
   }
 
-  callRpcPeriphery(request, callback) {
+//20250508 Ted  暫時增加日批月批切換的ip
+  callRpcPeriphery(request, grpcHost, callback){
+    console.log('Using gRPC host:', grpcHost);
     console.log('Sending gRPC request:', JSON.stringify(request, null, 2));
-    this.client.rpcPeriphery(request, (error, response) => {
+    const client = new protoDescriptor.com.bot.fsap.model.grpc.common.Service(
+        grpcHost,
+        grpc.credentials.createInsecure()
+      );
+    client.rpcPeriphery(request, (error, response) => {
       if (error) {
         console.error('gRPC error:', error);
         this.closeClient(); // 關閉舊的 gRPC客戶端
@@ -186,7 +204,10 @@ app.post('/api/saveas/:dirname', (req, res) => {
 
 app.post('/api/test', (req, res) => {
   const request = req.body;
-  grpcClientManager.callRpcPeriphery(request, (error, response) => {
+
+  const grpcHost = decideGrpcHost(request);
+
+  grpcClientManager.callRpcPeriphery(request,grpcHost, (error, response) => {
     if (error) {
       res.status(500).json({ error: error.message });
     } else {
