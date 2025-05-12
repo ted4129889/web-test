@@ -13,10 +13,11 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "CONVFLOW",
+      "tx_code": "ConvBkchc",
+      "batchtype": "M",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
-        "JOB": "CONVFLOW",
+        "JOB": "ConvBkchc",
         "batchDate": "20241104"
       }
     },
