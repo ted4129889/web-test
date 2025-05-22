@@ -13,11 +13,12 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTreasury",
       "batchtype": "M",
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTreasury",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
+        "batchDate": "20241104"
       }
     },
     "charsets": "UTF8",

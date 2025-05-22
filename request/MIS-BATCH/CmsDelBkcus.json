@@ -13,11 +13,12 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "EisDelTrct",
+      "tx_code": "CmsDelBkcus",
       "batchtype": "M",
-      "tx_code": "EisDelTrct",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
+        "JOB": "CmsDelBkcus",
+        "batchDate": "20241101"
       }
     },
     "charsets": "UTF8",

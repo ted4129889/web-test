@@ -13,9 +13,9 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTrctMonth",
       "batchtype": "M",
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTrctMonth",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
       }

@@ -13,11 +13,12 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTres",
       "batchtype": "M",
-      "tx_code": "EisDelTrct",
+      "tx_code": "EisDelTres",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
+        "batchDate": "20241104"
       }
     },
     "charsets": "UTF8",

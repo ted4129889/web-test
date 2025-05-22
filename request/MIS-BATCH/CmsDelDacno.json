@@ -13,11 +13,12 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "EisDelTrct",
+      "tx_code": "CmsDelDacno",
       "batchtype": "M",
-      "tx_code": "EisDelTrct",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
+        "JOB": "CmsDelDacno",
+        "batchDate": "20241101"
       }
     },
     "charsets": "UTF8",
