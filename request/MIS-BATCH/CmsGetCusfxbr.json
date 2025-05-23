@@ -15,7 +15,7 @@
     "pyheader": {
       "tx_code": "CmsGetCusfxbr",
       "batchtype": "M",
-
+      "tx_code": "CmsGetCusfxbr",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "batchDate": "20241104"
