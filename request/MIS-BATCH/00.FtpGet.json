@@ -17,8 +17,7 @@
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "batchDate": "20241104",
-        "folder": "asmp",
-        "fileName": "ALMINFACCT.txt"
+        "fileName": "ALMINFACCT_GET.txt"
       }
     },
     "charsets": "UTF8",

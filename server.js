@@ -16,7 +16,7 @@ function decideGrpcHost(request) {
   if (request.payload.pyheader.batchtype === 'D') {
     return 'localhost:8081';
   } else if (request.payload.pyheader.batchtype === 'M') {
-    return 'localhost:8091';
+    return 'localhost:8081';
   } else {
     return 'localhost:8081';
   }
@@ -44,7 +44,7 @@ const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
 
 const protoDescriptor = grpc.loadPackageDefinition(packageDefinition);
 
-// 封装 gRPC 客户端连接管理的类
+// 封裝 gRPC 客戶端管理類
 class GrpcClientManager {
   constructor(host) {
     this.host = host;
