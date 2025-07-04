@@ -13,9 +13,9 @@
   },
   "payload": {
     "pyheader": {
-      "tx_code": "CmsGetXcrtSet_Bsdt",
+      "tx_code": "CmsGetCusno",
       "batchtype": "M",
-      "tx_code": "CmsGetXcrtSet_Bsdt",
+      "tx_code": "CmsGetCusno",
       "txcode_fmtid": "CL_BATCH_I",
       "attributes": {
         "batchDate": "20241104"
